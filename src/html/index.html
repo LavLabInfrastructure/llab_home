@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaVioletteLab Home</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+<body class="bg-[#080b2b]">
+    <div class='flex items-center justify-center p-5'>
+        <h1 class="mb-4 text-4xl  leading-none tracking-tight text-slate-800 md:text-5xl lg:text-6xl dark:text-[#5acce6]">LaVioletteLab Web Tools</h1>
+    </div>
+    <div>
+        <a href="https://wsi.lavlab.mcw.edu">
+            <div class="m-3 bg-white dark:bg-[#151736] rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+                <div class="flex justify-center">
+                    <img src="https://www-legacy.openmicroscopy.org/site/support/ome-artwork/omero-logos/omero-logo-800.png/image" alt="OMERO Logo">
+                </div>
+                <div class="flex justify-center">
+                    <p class="text-slate-500 dark:text-[#3b76ae] mt-2 text-sm">
+                        OMERO Digital Pathology Server. Hosted at https://wsi.lavlab.mcw.edu
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a href="https://mri.lavlab.mcw.edu">
+            <div class="m-3 bg-white dark:bg-[#151736] rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+                <div class="flex justify-center">
+                    <img src="https://www.xnat.org/images/XNAT_logo_17.png" alt="XNAT Logo">
+                </div>
+                <div class="flex justify-center">
+                    <p class="text-slate-500 dark:text-[#3b76ae] mt-2 text-sm">
+                        XNAT MRI Server. Hosted at https://mri.lavlab.mcw.edu
+                    </p>    
+                </div>
+            </div>
+        </a>
+        <a href="http://localhost">
+            <div class="m-3 bg-white dark:bg-[#151736] rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+                <div class="flex justify-center">
+                    <img src="https://projects.task.gda.pl/uploads/-/system/project/avatar/321/grafana_logo.png" alt="Grafana Logo">
+                </div>
+                <div class="flex justify-center">
+                    <p class="text-slate-500 dark:text-[#3b76ae] mt-2 text-sm">
+                        Admins only!
+                    </p>    
+                </div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
